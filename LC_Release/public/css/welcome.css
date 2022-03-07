@@ -1,0 +1,9 @@
+body {
+    font-family: karla;
+}
+.welcome{
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}  

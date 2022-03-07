@@ -1,0 +1,37 @@
+<table class='table'>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Status</th>
+<th>Last Seen</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>Jobes</td>
+<td>stefanjobesabsolutegoat@yopmail.com</td>
+<td>
+<span class='text-success'>Online</span>
+</td>
+<td>1 second ago</td>
+</tr>
+<tr>
+<td>Poule</td>
+<td>jeanpoue@yopmail.com</td>
+<td>
+<span class='text-secondary'>Offline</span>
+</td>
+<td>3 hours ago</td>
+</tr>
+<tr>
+<td>oui</td>
+<td>oui@oui.com</td>
+<td>
+<span class='text-secondary'>Offline</span>
+</td>
+<td>14 minutes ago</td>
+</tr>
+</tbody>
+</table>

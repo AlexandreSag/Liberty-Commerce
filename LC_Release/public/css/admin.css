@@ -1,0 +1,62 @@
+.form_add_elem
+{
+    text-align: left;
+}
+
+.form_title{
+    font-family: Karla, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.buttonAjax{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.buttonAjax:hover{
+  background-color: #9b0003;
+  color: black;
+  border: solid black;
+}
+
+.form_input
+{
+  font-family: Karla, Helvetica, sans-serif;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid ;
+}
+
+.form_input:focus
+{
+  outline: none;
+  border-bottom: 2px solid #9b0003 ;
+}
+
+.submit
+{
+  text-transform: uppercase;
+  background-color: #3d0001;
+  border: solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit:hover
+{
+  background-color: #9b0003;
+  color: black;
+  border: solid black;
+}

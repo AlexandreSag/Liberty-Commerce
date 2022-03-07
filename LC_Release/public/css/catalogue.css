@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.product_link {
+  text-decoration: none;
+  color: black;
+}
+
+.Header {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.Footer {
+  flex: 1;
+  margin-bottom: 0px;
+}
+
+.BigBox {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.main_box{
+  display: flex;
+  flex: 1;
+}
+
+.image {
+ height: 338px;
+ transition: 0.5s;
+}
+
+.bloc_img {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 25px;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.bloc_img:hover {
+  box-shadow: 0 0 2px 1px #ff5e62, 0 0 2px 1px #ff5e62;
+}
+
+.desc_img {
+  text-align: center;
+  font-family: Karla;
+  font-size: 16px;
+}
+
+.nouveau {
+  font-family: Karla;
+  font-size: 16px;
+  color: #bf4800;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.submit1
+{
+  background-color: #3d0001;
+  border: solid black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display:block;
+  width:auto;
+  line-height:25px;
+  border-radius: 16px;
+  margin-top: 0%;
+  margin-left: 30%;
+  transition: 0.5s;
+}
+
+.submit1:hover
+{
+  background-color: #9b0003;
+  color: black;
+  border: solid black;
+}

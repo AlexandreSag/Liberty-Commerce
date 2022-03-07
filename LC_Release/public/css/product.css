@@ -1,0 +1,111 @@
+body {
+	font-family: Karla;
+}
+
+.Nom_Produit {
+	font-size: 45px;
+	margin-top: 95px;
+}
+
+.Prix_Produit {
+	margin-top: -85px;
+}
+
+.Stock_Produit {
+	color: green;
+	margin-top: -85px;
+}
+
+.Stock_Edit {
+	color: green;
+	margin-top: -85px;
+}
+
+
+.submit {
+  background-color: #3d0001;
+  border: solid black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display:block;
+	width:170px;
+	line-height:50px;
+}
+
+.submit:hover {
+  background-color: #9b0003;
+  color: black;
+  border: solid black;
+}
+
+.main_box {
+	display: flex;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.right_box {
+	margin-left: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.Produit_img {
+	width: 470px;
+	height: 556px;
+}
+
+@media screen and (max-width: 1300px) {
+	.right_box {
+		margin-left: 0px;
+		font-size: 75%;
+	}
+
+	.Nom_Produit {
+		font-size: 30px;
+		margin-top: 85px;
+	}
+
+	.Produit_img {
+		width: 353px;
+		height: 417px;
+	}
+
+	.submit {
+		font-size: 12px;
+		width: 128px;
+		line-height: 38px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	.right_box {
+		margin-left: 1px;
+		font-size: 50%;
+	}
+
+	.Nom_Produit {
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+	.Prix_Produit {
+		margin-top: -25px;
+	}
+
+	.Produit_img {
+		width: 235px;
+		height: 278px;
+	}
+
+	.submit {
+		font-size: 8px;
+		width: 85px;
+		line-height: 25px;
+	}
+}

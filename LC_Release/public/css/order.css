@@ -1,0 +1,37 @@
+body{
+  font-family: Karla;
+}
+
+.complete {
+    color: green;
+}
+
+.returnH {
+    background-color: #3d0001;
+    border: solid black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display:block;
+    width:100px;
+    line-height:25px;
+    font-family: Karla;
+    margin-left: 27%;
+    transition: 0.5s;
+    margin-top: 0px;
+    text-decoration: none;
+  }
+  
+  .returnH:hover {
+    background-color: #9b0003;
+    color: black;
+    border: solid black;
+  }
+
+  .completeBox {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 150px;
+      width: 20%;
+  }

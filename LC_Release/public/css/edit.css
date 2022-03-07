@@ -1,0 +1,58 @@
+.form_add_elem
+{
+    text-align: left;
+}
+
+.form_title{
+    font-family: Karla, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.form_input
+{
+  font-family: Karla, Helvetica, sans-serif;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid ;
+  margin-left: 15px;
+}
+
+.form_input:focus
+{
+  outline: none;
+  border-bottom: 2px solid #9b0003 ;
+}
+
+.edit_box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(14, 0, 0, 0.301);
+    width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.submit
+{
+  text-transform: uppercase;
+  background-color: #3d0001;
+  border: solid black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit:hover
+{
+  background-color: #9b0003;
+  color: black;
+  border: solid black;
+}

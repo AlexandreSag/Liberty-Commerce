@@ -1,0 +1,45 @@
+.title_input{
+    font-family: Karla, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid ;
+  }
+  
+  .title_input:focus
+  {
+    outline: none;
+    border-bottom: 2px solid #9b0003 ;
+  }
+  
+  .font_title{
+    font-family: Karla;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .logoAppoule{
+    height: 200px;
+    width: 100%;
+  }
+  
+  .submit
+  {
+    text-transform: uppercase;
+    background-color: #3d0001;
+    border: solid black;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 15px;
+  }
+  .submit:hover
+  {
+    background-color: #9b0003;
+    color: black;
+    border: solid black;
+  }

@@ -1,0 +1,47 @@
+.popup {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 300px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+  
+.popupContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 17%;
+    font-size: 20px;
+}
+
+.warning{
+    color: red;
+}
+
+
+.submit {
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: #3d0001;
+    border: solid black;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover {
+    background-color: #9b0003;
+    color: black;
+    border: solid black;
+}
